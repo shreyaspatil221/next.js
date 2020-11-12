@@ -7,7 +7,7 @@ export default function IndexPage(props) {
 
   return (
     <div>
-      <h1>Index page</h1>
+      <h1>Welcome</h1>
       <p>Current locale: {locale}</p>
       <p>Default locale: {defaultLocale}</p>
       <p>Configured locales: {JSON.stringify(locales)}</p>
